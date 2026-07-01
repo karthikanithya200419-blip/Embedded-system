@@ -1,0 +1,114 @@
+//1) arthimetic operator
+/*#include <stdio.h>
+
+int main() {
+    int a=6;
+    int b=3;
+    printf("%d\n",a+b);
+    printf("%d\n",a-b);
+    printf("%d\n",a*b);
+    printf("%d\n",b/a);
+    printf("%d\n",b%a);
+   // Write C code here
+    printf("Start small. Ship something.");
+
+    return 0;
+}*/
+
+
+
+//2)pre-increment and post-increment
+/*#include <stdio.h>
+int main(){
+    int c=10;
+     printf("%d\n",c);
+     printf("%d\n",c++);
+     printf("%d\n",++c);
+     printf("%d\n",c);
+     return 0;
+}*/
+//3) pre-decerment and post-decrement
+/*# include <stdio.h> 
+int main(){
+    int e=5;
+    printf("%d\n",e);
+    printf("%d\n",--e);
+    printf("%d\n",e--);
+    printf("%d\n",e);
+    return 0;
+}*/
+//4)calculate the speed
+ /* # include <stdio.h>
+  int main (){
+  float d=6;
+  float t=9;
+  float s=d/t;
+  printf("%f\n",d/t);
+  return 0; 
+ 
+}*/
+//5 remainder of two numbers
+/*# include <stdio.h>
+int main(){
+    int d= 50;
+    int e= 20;
+    printf("%d\n",d%e);
+    return 0;
+}*/
+
+// 11 assignment operator
+/*#include <stdio.h>
+
+int main() {
+    int a=6;
+    int b=3;
+    printf("%d\n",a=b);
+    printf("%d\n",a+=b);
+    printf("%d\n",a-=b);
+    printf("%d\n",b*=a);
+    printf("%d\n",b/=a);
+   printf("%d\n",b%=a);
+   // Write C code here
+    printf("Start small. Ship something.");
+
+    return 0;
+}*/
+//12 last two digit 
+
+/*# include <stdio.h>
+int main(){
+    int a=521;
+    int c=a/10;
+    int d=c%10;
+    int b=a%10;
+ printf("%d",d);
+ printf("%d",b);
+ return 0;
+    
+}*/
+//14 size operator
+/*#include<stdio.h>
+int main(){
+    int a;
+    int f;
+    int ch;
+    int d;
+    int arr[20];
+    printf("sizeof(a)=%zu\n",sizeof(a));
+    printf("sizeof(f)=%zu\n",sizeof(f));
+    printf("sizeof(ch)=%zu\n",sizeof(ch));
+    printf("sizeof(d)=%zu\n",sizeof(d));
+    printf("sizeof(arr)=%zu\n",sizeof(arr));
+    return 0;
+}*/
+//6 caluculate average 
+/*# include <stdio.h>
+int main(){
+    int a=60;
+    int b=50;
+    int c=30;
+     int sum = a+b+c;
+    printf("%d\n",sum/3);
+    return 0;
+    
+}*/
