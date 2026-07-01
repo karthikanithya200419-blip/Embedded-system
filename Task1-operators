@@ -112,3 +112,100 @@ int main(){
     return 0;
     
 }*/
+//10 )calculator total and percentage of five sub 
+/*#include <stdio.h>
+
+int main()
+{
+    int max=500;
+    int s1=95;
+    int s2=98;
+    int s3=60;
+    int s4=95;
+    int s5=80;
+    int total=s1+s2+s3+s4+s5;
+    float percentage=(float) total / max*100;
+    printf("%d\n", total);
+    printf("%f\n", percentage);
+    return 0;
+  }*/
+  //9 simple interset
+  /*#include<stdio.h>
+  int main()
+  {
+      int p=10;
+      int r=30;
+      int t=70;
+      int SI= (p*r*t)/100;
+      printf("%d\n",SI);
+      return 0;
+  }*/
+  //7 area and perimeter 
+ /* # include <stdio.h>
+  int main(){
+      int s=4;
+      int r=6;
+      float pie=3.14;
+      int l=5;
+      int w=9;
+      //rectangle
+      int rectangle ;
+      int area_rect =l*w;
+      int perimeter_rect=2*(l+w);
+      printf("%d\n",area_rect);
+      printf("%d\n",perimeter_rect);
+      //square
+      int square ;
+      int area_squ =s*s;
+      int perimeter_squ=4*s;
+      printf("%d\n",area_squ);
+      printf("%d\n",perimeter_squ);
+      int circle ;
+      int area_circle =3.14*r*r;
+      int perimeter_circle=2*3.14*r;
+      printf("%d\n",area_circle);
+      printf("%d\n",perimeter_circle);
+      return 0;
+      
+      
+  }*/
+  
+  //8)covert celsius to fahrenheit
+ /* # include<stdio.h>
+  int main()
+{
+    int c=300;
+    int f=(c*9/5)+32;
+    printf("%d\n",f);
+    return 0;
+} */
+
+//13)commoa operator
+
+/*# include<stdio.h>
+int main() 
+{
+    int a, b, square_a, cube_a, square_b, cube_b;
+a = 5, b = 8;   
+    square_a = a * a, cube_a = a * a * a;
+    square_b = b * b, cube_b = b * b * b;
+
+    printf("A = %d, Square = %d, Cube = %d\n", a, square_a, cube_a);
+    printf("B = %d, Square = %d, Cube = %d\n", b, square_b, cube_b);
+
+    return 0;
+}*/
+
+//15)smaller number
+/*# include <stdio.h>
+int main()
+{
+    int a,b,small;
+    printf("enter two number: ");
+    scanf("%d %d", &a,&b);
+    small =(a<b) ?a:b;
+    printf("smaller number= %d\n",small);
+    return 0;
+}*/
+  
+  
