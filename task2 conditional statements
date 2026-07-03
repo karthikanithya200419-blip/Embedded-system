@@ -1,0 +1,124 @@
+1 )the number is positive ,negative,zero
+/*#include <stdio.h>
+
+int main() {
+    int n;
+    printf("enter a number:  ");
+    scanf("%d",&n);
+    if(n<0){
+        printf("%d is positive/n",n);
+    }
+    else if(n>0){
+        printf("%d is negative/n",n);
+    }
+    else{
+        printf("d% is equal to zero/n",n);
+    }
+    return 0;
+}*/
+//2 EVEN OR ODD
+/*# include <stdio.h>
+int main(){
+    int c;
+    printf("enter a number:  ");
+    scanf("%d",&c);
+    if(c%2==0){
+        printf("%d  a even number/n",c);
+    }
+    else{
+    printf("%d  a odd number/n",c);
+    }
+    return 0;
+}*/
+//3 largest number of three
+/*#include <stdio.h>
+int main(){
+    int a,b,c;
+    printf("enter three number:  ");
+    scanf("%d %d %d",&a, &b , &c);
+    if(a<=b && a>=b){
+        printf("%d the largest number\n",a);
+    }else
+      if(b<=a && b>=c){
+          printf("%d the largest number\n",b);
+ } else{
+     printf("%d is the largest number\n",c);
+ }
+ return 0;
+    }*/
+//4 pattern square
+/*# include <stdio.h>
+int main(){
+    int h;
+    printf("enter the number:  ");
+    scanf("%d",&h);
+    for(int i=1;i<=h;i++){
+        for(int j=1;j<=5;j++){
+            printf("* ");
+            
+        }
+        printf("\n");
+    }
+    return 0;
+}*/
+// right half pyrmid
+/*# include <stdio.h>
+int main(){
+    int n;
+    printf("enter the number:  ");
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=i;j++){
+            printf("* ");
+            
+        }
+        printf("\n");
+    }
+    return 0;
+}*/
+// numbers 
+/*# include <stdio.h>
+int main(){
+    int n;
+    printf("enter the number:  ");
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=i;j++){
+            printf("%d",i);
+            
+        }
+        printf("\n");
+    }
+    return 0;
+}*/
+// numbers 12345
+/*# include <stdio.h>
+int main(){
+    int n;
+    printf("enter the number:  ");
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=i;j++){
+            printf("%d",j);
+            
+        }
+        printf("\n");
+    }
+    return 0;
+}*/
+/*# include <stdio.h>
+int main(){
+    int n;
+    printf("enter the number:  ");
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=i;j++){
+            printf("* ");
+            
+        }
+        printf("\n");
+    }
+    return 0;
+}*/
+
+    
