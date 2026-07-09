@@ -1,0 +1,55 @@
+// 1) strlen()
+/*#include <stdio.h>
+#include <string.h>
+int main(){
+    char ch [30];
+    printf("enter the value ");
+    fgets(ch,30,stdin);
+    printf("%d",strlen(ch));
+    return 0;
+    }*/
+     // 2) strcpy()
+/*#include <stdio.h>
+#include <string.h>
+int main(){
+    char str1[30];
+    char str2[50];
+    printf("enter your data ");
+    scanf("%s %s", str1 ,str2);
+    printf("before copy %s\n",str1);
+    strcpy(str1,str2);
+    printf("after copy %s\n",str1);
+    return 0;
+}*/
+
+// 3)strcmp()
+/*#include <stdio.h>
+#include <string.h>
+int main(){
+    char str1[10];
+    char str2[30];
+    printf("enter the number  ");
+    scanf("%s %s",str1,str2);
+    if (strcmp(str1,str2)<0){
+        printf("%s  is less than \n ",str1);
+    } else if
+     (strcmp(str1,str2)>0){
+        printf("%s is greater than str1\n", str2);
+     }else
+     {
+        printf("is  both equal  \n");
+     }
+        return 0;
+    }*/
+    //4) square root funtion
+    
+  /*  #include <stdio.h>
+    #include<string.h>
+    #include<math.h>
+    int main(){
+        float n;
+    printf("enter the number  ");
+    scanf("%f",&n);
+    printf("square root=%2f",sqrt(n) );
+    return 0;
+    }*/
