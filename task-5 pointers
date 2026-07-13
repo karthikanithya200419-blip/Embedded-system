@@ -87,5 +87,172 @@ int main()
     printf("After: %d", *p);
     return 0;
 }*/
+7)print a element
+/*#include <stdio.h>
+int main()
+{
+    int arr[5];
+    int *ptr;
+    ptr = arr;
+    printf("Enter 5 elements:\n");
+    while(ptr < arr + 5){
+        scanf("%d", ptr);
+        ptr++;
+    }
+    ptr = arr;
+    printf("Array elements are:\n");
+    while(ptr < arr + 5)
+    {        printf("%d ", *ptr);
+        ptr++;
+    }
+
+    return 0;
+}*/
+//8)sum of all element
+/*#include <stdio.h>
+int main()
+{
+    int arr[5], *ptr, sum = 0;
+ptr = arr;
+    printf("Enter 5 elements:\n");
+    while(ptr < arr + 5){
+    scanf("%d", ptr);
+        ptr++;
+    }
+ ptr = arr;
+ while(ptr < arr + 5)
+    {
+      sum += *ptr;
+        ptr++;
+    }
+
+    printf("Sum = %d", sum);
+
+    return 0;
+}*/
+//9) calculator uaingfuntion
+/*#include <stdio.h>
+int add(int a, int b){
+    return a + b;
+}
+int sub(int a, int b){
+    return a - b;
+}
+int mul(int a, int b){
+    return a * b;
+}
+int divi(int a, int b){
+    return a / b;
+}
+int main(){
+     int a, b, ch;
+    int (*fp)(int, int);
+printf("Enter two numbers: ");
+    scanf("%d%d", &a, &b);
+    printf("\n1.Add\n2.Sub\n3.Mul\n4.Div\n");
+    printf("Enter your choice: ");
+    scanf("%d", &ch);
+switch(ch){
+     case 1:
+            fp = add;
+            break;
+
+        case 2:
+            fp = sub;
+            break;
+
+        case 3:
+            fp = mul;
+            break;
+
+        case 4:
+            fp = divi;
+            break;
+
+        default:
+            printf("Invalid Choice");
+            return 0;
+    }
+
+    printf("Result = %d", fp(a, b));
+
+    return 0;
+}*/
+//10)pass funtion pointer
+/*#include <stdio.h>
+int add(int a,int b){
+    return a+b;
+}
+void calc(int (*p)(int,int),int x,int y){
+    printf("%d",p(x,y));
+}
+int main(){
+    calc(add,10,20);
+return 0;
+}*/
+//11)implement your own version
+//memcpy()
+/*#include<stdio.h>
+void mycopy(char *d,char *s,int n){
+    while(n--)
+        *d++=*s++;
+}
+int main()
+{
+    char s[]="beautiful",d[20];
+    mycopy(d,s,20);
+    printf("%s",d);
+}*/
+//12)own version of memmove()
+/*#include<stdio.h>
+void move(char *d,char *s,int n){
+    if(d>s)
+        while(n--) d[n]=s[n];
+    else
+        while(n--) *d++=*s++;}
+        int main()
+{
+    char s[20]="Hello";
+    move(s+2,s,5);
+    printf("%s",s);
+}*/
+//13)use memset()
+/*#include<stdio.h>
+#include<string.h>
+int main()
+{
+    int a[5];
+    memset(a,12,sizeof(a));
+    for(int i=0;i<5;i++)
+        printf("%d ",a[i]);
+    return 0;
+}*/
+//14)compare two stings using memcpy()
+/*#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char a[]="Hello";
+    char b[]="world";
+if(memcmp(a,b,5)==0)
+        printf("Equal");
+    else
+        printf("Not Equal");
+}*/
+//15)const pointer
+/*#include <stdio.h>
+int main()
+{
+    int a, b;
+    printf("Enter two values: ");
+    scanf("%d%d", &a, &b);
+    const int *p1 = &a;
+    int *const p2 = &a;
+    const int *const p3 = &a;
+    printf("const int *p1 = %d\n", *p1);
+    printf("int *const p2 = %d\n", *p2);
+    printf("const int *const p3 = %d\n", *p3);
+    return 0;
+}*/
 
         
