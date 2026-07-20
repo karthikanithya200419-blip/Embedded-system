@@ -1,0 +1,126 @@
+1 struct employee
+/*#include <stdio.h>
+struct Employee
+{
+    int empid;
+    char name[30];
+    float monthlySalary;
+};
+   void calculateAnnualSalary(struct Employee emp)
+{
+    float annualSalary;
+    annualSalary = emp.monthlySalary * 12;
+ printf("\nEmployee Details\n");
+    printf("Employee ID : %d\n", emp.empid);
+    printf("Employee Name : %s\n", emp.name);
+    printf("Monthly Salary : %.2f\n", emp.monthlySalary);
+    printf("Annual Salary : %.2f\n", annualSalary);
+}
+int main()
+{    struct Employee emp;
+   printf("Enter Employee ID: ");
+    scanf("%d", &emp.empid);
+    printf("Enter Employee Name: ");
+    scanf("%s", emp.name);
+    printf("Enter Monthly Salary: ");
+    scanf("%f", &emp.monthlySalary);
+    calculateAnnualSalary(emp);
+    return 0;
+}*/
+//2 creat an union 
+/*#include<stdio.h>
+union data {
+    int i;
+    char c;
+    float f;
+};
+int main(){
+    union data d;
+    d.i=100;
+    printf("integer :%d\n",d.i);
+    d.c='K';
+    printf("character :%ch\n",d.c);
+    d.f=35.5;
+    printf("float :%ch\n",d.f);
+    printf("after storing character\n");
+     printf("integer: %d\n",d.i);
+      printf("character:%ch\n",d.c);
+       printf("float:%.2f\n",d.f);
+       return 0;
+    
+}*/
+//3 enum representation menu
+/*#include<stdio.h>
+#include<string.h>
+enum menu 
+{
+    add=1,
+    subtract,
+    multiply,
+    divition,
+};
+int main(){
+    int choice;
+    float a,b;
+    printf("1.addition\n");
+    printf("1.subtract\n");
+    printf("1.multiply\n");
+    printf("1.divition\n");
+    printf("Enter your choice: ");
+    scanf("%d", &choice);
+printf("Enter two numbers: ");
+    scanf("%f %f", &a, &b);
+    switch (choice)
+    {
+        case 1: add:
+            printf("Result = %.2f\n", a + b);
+            break;
+        case 2: subtract:
+        printf("Result = %.2f\n", a - b);
+            break;
+        case 3:Multiply:
+            printf("Result = %.2f\n", a * b);
+            break;
+        case 4:divition:
+            if (b != 0)
+                printf("Result = %.2f\n", a / b);
+            else
+            printf("division by zero is not possible\n");
+            break;
+            default:
+            printf("invalid choice\n");
+            }
+            return 0;
+}*/
+//4 #define calculate area of the circle
+/*# include<stdio.h>
+# define PI 3.141
+
+int main(){
+    float radius,area;
+    printf("enter the radius:  ");
+    scanf("%f",&radius);
+    area= PI*radius*radius;
+    printf("radius=%.2f\n",radius);
+    printf("area of circle =%.2f\n", area);
+    return 0;
+}*/
+
+//5# indef debug
+
+/*#include <stdio.h>
+#define DEBUG
+int main()
+{
+    int a = 10, b = 20;
+    int sum;
+    sum = a + b;
+#ifdef DEBUG
+    printf("Debug Information\n");
+    printf("a = %d\n", a);
+    printf("b = %d\n", b);
+    printf("sum = %d\n", sum);
+#endif
+    printf("result = %d\n",sum);
+    return 0;
+}*/
